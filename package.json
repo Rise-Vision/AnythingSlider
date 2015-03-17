@@ -1,7 +1,7 @@
 {
-	"name": "anythingslider",
+	"name": "rv-anythingslider",
 	"title": "AnythingSlider",
-	"version": "1.9.4",
+	"version": "1.9.5",
 	"description": "Just what the world needs, another jQuery slider. YAWN. I know, check this one out though, it's got lots of cool features.\n\nHere on CSS-Tricks, I've created a number of different sliders. Three, in fact. A \"featured content\" slider, a \"start/stop slider\", and \"moving boxes\". Each of them had some cool interesting feature that I needed to build at the time. All were well-received, but as is the case with these things, people want them to do X, Y, and Z in addition to what they already did.\n\nThis new AnythingSlider is an attempt at bringing together the functionality of all of those previous sliders and adding new features. In other words, to create a really \"full featured\" slider that could be widely useful. This is the first time (on CSS-Tricks) that one of these sliders is an actual plugin as well, which should make implementing it and customizing it much easier.",
 	"author": {
 		"name": "Chris Coyier",
@@ -14,7 +14,11 @@
 	},{
 		"name": "Dean Sofer",
 		"url": "https://github.com/ProLoser"
-	}],
+	},{
+        "name": "Rise Vision Inc",
+        "url": "https://github.com/Rise-Vision",
+        "email": "support@risevision.com"
+    }],
 	"licenses": [{
 		"type": "GPL3",
 		"url": "https://github.com/CSS-Tricks/AnythingSlider/blob/master/license.txt"
@@ -26,6 +30,18 @@
 	"dependencies": {
 		"jquery": ">=1.4.2"
 	},
+    "devDependencies": {
+        "colors": "~1.0.3",
+        "del": "~1.1.1",
+        "gulp": "^3.5.6",
+        "gulp-bower": "~0.0.10",
+        "gulp-bump": "~0.1.8",
+        "run-sequence": "^0.3.2",
+        "widget-tester": "git://github.com/Rise-Vision/widget-tester.git"
+    },
+    "scripts": {
+        "test": "gulp test"
+    },
 	"keywords": [
 		"customizable",
 		"effects",

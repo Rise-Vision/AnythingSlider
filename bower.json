@@ -1,0 +1,20 @@
+{
+  "name": "rv-anythingslider",
+  "version": "1.9.5",
+  "homepage": "https://github.com/Rise-Vision/AnythingSlider",
+  "authors": [
+    "Chris Coyier <https://github.com/chriscoyier>",
+    "Rise Vision Inc <support@risevision.com>"
+  ],
+  "description": "A jQuery Slider plugin for anything.",
+  "license": "GPL V3",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {
+    "jquery": ">=1.4.2"
+  }
+}
